@@ -75,6 +75,10 @@
       <BuildType Solution="DebugTrimmed|*" Project="Debug" />
       <BuildType Solution="ReleaseTrimmed|*" Project="Release" />
     </Project>
+    <Project Path="plugin.validation.dns.gigahost/wacs.validation.dns.gigahost.csproj">
+      <BuildType Solution="DebugTrimmed|*" Project="Debug" />
+      <BuildType Solution="ReleaseTrimmed|*" Project="Release" />
+    </Project>
     <Project Path="plugin.validation.dns.googledns/wacs.validation.dns.googledns.csproj">
       <BuildType Solution="DebugTrimmed|*" Project="Debug" />
       <BuildType Solution="ReleaseTrimmed|*" Project="Release" />
