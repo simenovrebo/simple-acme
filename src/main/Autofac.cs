@@ -92,6 +92,10 @@ namespace PKISharp.WACS.Host
                 {
                     _ = builder.RegisterType<CronJobService>().As<IAutoRenewService>().SingleInstance();
                 }
+                else
+                {
+                    _ = builder.RegisterType<NullAutoRenewService>().As<IAutoRenewService>().SingleInstance();
+                }
                 _ = builder.RegisterType<NotificationService>().SingleInstance();
                 _ = builder.RegisterType<RenewalExecutor>().SingleInstance();
                 _ = builder.RegisterType<RenewalManager>().SingleInstance();
