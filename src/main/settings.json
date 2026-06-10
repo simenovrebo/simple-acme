@@ -96,7 +96,7 @@
     "PreValidateDnsLocal": false,
     "DnsPropagationDelay": 30,
     "AllowDnsSubstitution": true,
-    "DnsServers": [ "[System]" ],
+    "DnsServers": [ "1.1.1.1", "8.8.8.8" ],
     "Ftp": {
       "UseGnuTls": false
     }
